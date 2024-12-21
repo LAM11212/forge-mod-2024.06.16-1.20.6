@@ -12,7 +12,7 @@ public class ModItems
             DeferredRegister.create(ForgeRegistries.ITEMS, TutorialMod.MOD_ID);
     //sapphire item
     public static final RegistryObject<Item> SAPPHIRE = ITEMS.register("sapphire", () -> new Item(new Item.Properties()));
-    //sapphire ore block
+    //raw sapphire item
     public static final RegistryObject<Item> RAW_SAPPHIRE = ITEMS.register("raw_sapphire", () -> new Item(new Item.Properties()));
 
 
