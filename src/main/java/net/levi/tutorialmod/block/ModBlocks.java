@@ -26,6 +26,12 @@ public class ModBlocks
                     .sound(SoundType.AMETHYST)
                     .requiresCorrectToolForDrops()));
 
+    public static final RegistryObject<Block> SAPPHIRE_BLOCK = registerBlock("sapphire_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(5.0f, 3.0f)
+                    .sound(SoundType.STONE)
+                    .requiresCorrectToolForDrops()));
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block)
     {
         RegistryObject<T> toReturn = BLOCKS.register(name, block); // registers block

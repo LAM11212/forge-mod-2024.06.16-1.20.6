@@ -18,9 +18,13 @@ public class ModCreativeModeTabs
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SAPPHIRE.get()))
                     .title(Component.translatable("creativetab.tutorial_tab"))
                     .displayItems((pParameters, pOutput) -> {
+                        //raw sapphire and normal sapphire items
                         pOutput.accept(ModItems.SAPPHIRE.get());
                         pOutput.accept(ModItems.RAW_SAPPHIRE.get());
+
+                        //sapphire ore blocks and sapphire blocks
                         pOutput.accept(ModBlocks.SAPPHIRE_ORE_BLOCK.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                     })
                     .build());
 
