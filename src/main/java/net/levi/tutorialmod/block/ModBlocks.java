@@ -26,23 +26,23 @@ public class ModBlocks
     //SAPPHIRE ORE BLOCK
     public static final RegistryObject<Block> SAPPHIRE_ORE_BLOCK = registerBlock("sapphire_ore_block",
             () -> new DropExperienceBlock(UniformInt.of(3, 6), BlockBehaviour.Properties.of()
-                    .strength(2f).requiresCorrectToolForDrops()));
+                    .strength(2f, 3f).requiresCorrectToolForDrops()));
     //DEEPSLATE SAPPHIRE ORE BLOCK
     public static final RegistryObject<Block> DEEPSLATE_SAPPHIRE_ORE_BLOCK = registerBlock("deepslate_sapphire_ore_block",
             () -> new DropExperienceBlock(UniformInt.of(3, 6), BlockBehaviour.Properties.of()
-                    .strength(5f)
+                    .strength(3f, 4f)
                     .sound(SoundType.DEEPSLATE)
                     .requiresCorrectToolForDrops()));
     //NETHER SAPPHIRE ORE BLOCK
     public static final RegistryObject<Block> NETHER_SAPPHIRE_ORE_BLOCK = registerBlock("nether_sapphire_ore_block",
             () -> new DropExperienceBlock(UniformInt.of(3, 7), BlockBehaviour.Properties.of()
-                    .strength(5f)
+                    .strength(3f, 5f)
                     .sound(SoundType.NETHER_ORE)
                     .requiresCorrectToolForDrops()));
     // END STONE SAPPHIRE ORE BLOCK
     public static final RegistryObject<Block> END_STONE_SAPPHIRE_ORE_BLOCK = registerBlock("end_stone_sapphire_ore_block",
             () -> new DropExperienceBlock(UniformInt.of(5, 8), BlockBehaviour.Properties.of()
-                    .strength(5f).requiresCorrectToolForDrops()
+                    .strength(5f, 6f)
                     .sound(SoundType.POLISHED_DEEPSLATE)
                     .requiresCorrectToolForDrops()));
     // SAPPHIRE BLOCK

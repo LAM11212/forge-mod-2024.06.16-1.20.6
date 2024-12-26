@@ -26,7 +26,7 @@
                   }
                 }
               ],
-              "name": "tutorialmod:sapphire_ore"
+              "name": "tutorialmod:sapphire_ore_block"
             },
             {
               "type": "minecraft:item",

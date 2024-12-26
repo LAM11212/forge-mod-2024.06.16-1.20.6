@@ -26,7 +26,7 @@
                   }
                 }
               ],
-              "name": "tutorialmod:end_stone_sapphire_ore"
+              "name": "tutorialmod:nether_sapphire_ore_block"
             },
             {
               "type": "minecraft:item",
@@ -35,8 +35,8 @@
                   "add": false,
                   "count": {
                     "type": "minecraft:uniform",
-                    "max": 20.0,
-                    "min": 10.0
+                    "max": 10.0,
+                    "min": 2.0
                   },
                   "function": "minecraft:set_count"
                 },
@@ -49,7 +49,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "tutorialmod:end_stone_sapphire_ore"
+              "name": "tutorialmod:raw_sapphire"
             }
           ]
         }
@@ -57,5 +57,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "tutorialmod:blocks/end_stone_sapphire_ore"
+  "random_sequence": "tutorialmod:blocks/nether_sapphire_ore_block"
 }
