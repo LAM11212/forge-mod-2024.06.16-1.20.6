@@ -18,8 +18,7 @@ public class ModItems
     public static final RegistryObject<Item> SAPPHIRE_SWORD = ITEMS.register("sapphire_sword",
             () -> new Item(new Item.Properties()));
 
-    public static void register(IEventBus eventBus)
-    {
+    public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
 }

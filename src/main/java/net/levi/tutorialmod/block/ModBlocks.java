@@ -2,10 +2,14 @@ package net.levi.tutorialmod.block;
 
 import net.levi.tutorialmod.ModItems;
 import net.levi.tutorialmod.TutorialMod;
+import net.minecraft.client.resources.model.Material;
+import net.minecraft.client.resources.sounds.Sound;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -19,13 +23,29 @@ public class ModBlocks
 {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, TutorialMod.MOD_ID);
-
+    //SAPPHIRE ORE BLOCK
     public static final RegistryObject<Block> SAPPHIRE_ORE_BLOCK = registerBlock("sapphire_ore_block",
-            () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(3.0f, 3.0f)
-                    .sound(SoundType.AMETHYST)
+            () -> new DropExperienceBlock(UniformInt.of(3, 6), BlockBehaviour.Properties.of()
+                    .strength(2f).requiresCorrectToolForDrops()));
+    //DEEPSLATE SAPPHIRE ORE BLOCK
+    public static final RegistryObject<Block> DEEPSLATE_SAPPHIRE_ORE_BLOCK = registerBlock("deepslate_sapphire_ore_block",
+            () -> new DropExperienceBlock(UniformInt.of(3, 6), BlockBehaviour.Properties.of()
+                    .strength(5f)
+                    .sound(SoundType.DEEPSLATE)
                     .requiresCorrectToolForDrops()));
-
+    //NETHER SAPPHIRE ORE BLOCK
+    public static final RegistryObject<Block> NETHER_SAPPHIRE_ORE_BLOCK = registerBlock("nether_sapphire_ore_block",
+            () -> new DropExperienceBlock(UniformInt.of(3, 7), BlockBehaviour.Properties.of()
+                    .strength(5f)
+                    .sound(SoundType.NETHER_ORE)
+                    .requiresCorrectToolForDrops()));
+    // END STONE SAPPHIRE ORE BLOCK
+    public static final RegistryObject<Block> END_STONE_SAPPHIRE_ORE_BLOCK = registerBlock("end_stone_sapphire_ore_block",
+            () -> new DropExperienceBlock(UniformInt.of(5, 8), BlockBehaviour.Properties.of()
+                    .strength(5f).requiresCorrectToolForDrops()
+                    .sound(SoundType.POLISHED_DEEPSLATE)
+                    .requiresCorrectToolForDrops()));
+    // SAPPHIRE BLOCK
     public static final RegistryObject<Block> SAPPHIRE_BLOCK = registerBlock("sapphire_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(5.0f, 3.0f)

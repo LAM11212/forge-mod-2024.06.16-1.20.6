@@ -25,9 +25,14 @@ public class ModCreativeModeTabs
                         //sapphire ore blocks and sapphire blocks
                         pOutput.accept(ModBlocks.SAPPHIRE_ORE_BLOCK.get());
                         pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
+                        pOutput.accept(ModBlocks.DEEPSLATE_SAPPHIRE_ORE_BLOCK.get());
+                        pOutput.accept(ModBlocks.NETHER_SAPPHIRE_ORE_BLOCK.get());
+                        pOutput.accept(ModBlocks.END_STONE_SAPPHIRE_ORE_BLOCK.get());
 
                         //sapphire tools
                         pOutput.accept(ModItems.SAPPHIRE_SWORD.get());
+
+
                     })
                     .build());
 

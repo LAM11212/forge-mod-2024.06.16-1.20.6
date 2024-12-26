@@ -5,6 +5,9 @@
 
   "block.tutorialmod.sapphire_ore_block": "Sapphire Ore Block",
   "block.tutorialmod.sapphire_block": "Sapphire Block",
+  "block.tutorialmod.deepslate_sapphire_ore_block": "Deepslate Sapphire Ore",
+  "block.tutorialmod.nether_sapphire_ore_block": "Nether Sapphire Ore",
+  "block.tutorialmod.end_stone_sapphire_ore_block": "End Stone Sapphire Ore",
 
   "creativetab.tutorial_tab": "Sapphire Tutorial Tab"
 }
