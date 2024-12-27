@@ -1,14 +1,11 @@
 package net.levi.tutorialmod.block;
 
-import net.levi.tutorialmod.ModItems;
+import net.levi.tutorialmod.item.ModItems;
 import net.levi.tutorialmod.TutorialMod;
-import net.minecraft.client.resources.model.Material;
-import net.minecraft.client.resources.sounds.Sound;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;

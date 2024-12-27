@@ -1,5 +1,6 @@
-package net.levi.tutorialmod;
+package net.levi.tutorialmod.item;
 
+import net.levi.tutorialmod.TutorialMod;
 import net.levi.tutorialmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -31,6 +32,12 @@ public class ModCreativeModeTabs
 
                         //sapphire tools
                         pOutput.accept(ModItems.SAPPHIRE_SWORD.get());
+
+                        //METAL DETECTOR
+                        pOutput.accept(ModItems.METAL_DETECTOR.get());
+
+                        //TODO create metal detector png, add translation to en_us.json for metal detector,
+                        //TODO add metal detector.json to item models folder
 
 
                     })
