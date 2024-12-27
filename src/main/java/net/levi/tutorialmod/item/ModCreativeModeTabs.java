@@ -36,9 +36,6 @@ public class ModCreativeModeTabs
                         //METAL DETECTOR
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
 
-                        //TODO create metal detector png, add translation to en_us.json for metal detector,
-                        //TODO add metal detector.json to item models folder
-
 
                     })
                     .build());
