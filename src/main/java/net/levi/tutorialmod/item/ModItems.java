@@ -3,6 +3,7 @@ package net.levi.tutorialmod.item;
 import net.levi.tutorialmod.TutorialMod;
 import net.levi.tutorialmod.item.custom.MetalDetectorItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.SwordItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
